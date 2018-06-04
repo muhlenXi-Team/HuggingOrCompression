@@ -9,7 +9,7 @@
 
 #### 水平方向并排排列两个视图，分别为视图1和视图2，如果你想让你的视图2水平方向可以被拉伸，需要怎么做？
 
-方案1：设置视图2的水平拉伸优先级**小于** 215。
+方案1：设置视图2的水平拉伸优先级**小于** 251。
 
 ```swift
 label2.setContentCompressionResistancePriority(UILayoutPriority(rawValue: 250), for: .horizontal)
